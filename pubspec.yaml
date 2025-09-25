@@ -1,0 +1,29 @@
+name: love_biliran
+description: A tourism mobile app for Biliran built with Flutter and Clean Architecture.
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management and utilities
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+
+  # Firebase (you'll need these later for Data Layer implementation)
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.0
+  cloud_firestore: ^4.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
