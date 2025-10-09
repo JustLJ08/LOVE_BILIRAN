@@ -1,3 +1,4 @@
+//get_announcement_details.dart
 import 'package:dartz/dartz.dart';
 import '../../../../core/error/failure.dart';
 import '../entities/announcement.dart';

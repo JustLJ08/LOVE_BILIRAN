@@ -1,3 +1,4 @@
+//contact_info.dart
 import 'package:equatable/equatable.dart';
 
 class ContactInfo extends Equatable {

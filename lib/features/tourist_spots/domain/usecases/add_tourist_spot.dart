@@ -1,3 +1,4 @@
+//add_tourist_spot.dart
 import 'package:dartz/dartz.dart';
 import '../../../../core/error/failure.dart';
 import '../entities/tourist_spot.dart';

@@ -1,3 +1,4 @@
+//announcement.dart
 import 'package:equatable/equatable.dart';
 
 class Announcement extends Equatable {

@@ -1,3 +1,4 @@
+//event.dart
 import 'package:equatable/equatable.dart';
 
 class Event extends Equatable {

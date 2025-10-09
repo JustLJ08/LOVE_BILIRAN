@@ -1,3 +1,4 @@
+//tourist_spot.dart
 import 'package:equatable/equatable.dart';
 
 class TouristSpot extends Equatable {

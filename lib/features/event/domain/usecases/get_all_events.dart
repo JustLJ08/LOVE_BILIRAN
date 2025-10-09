@@ -1,3 +1,4 @@
+//get_all_events.dart
 import 'package:dartz/dartz.dart';
 import '../../../../core/error/failure.dart';
 import '../entities/event.dart';
