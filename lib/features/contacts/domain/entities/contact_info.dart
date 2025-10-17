@@ -13,7 +13,7 @@ class ContactInfo extends Equatable {
     required this.name,
     required this.contactNumber,
     required this.category,
-    this.location,
+    this.location, String? email,
   });
 
   @override

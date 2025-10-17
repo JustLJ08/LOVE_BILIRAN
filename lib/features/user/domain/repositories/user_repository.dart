@@ -16,7 +16,7 @@ abstract class UserRepository {
     required UserRole role,
   });
 
-  Future<Either<Failure, void>> signOut();
+  Future<Either<Failure, Unit>> signOut();
 
   Future<Either<Failure, UserEntity>> getUserProfile(String userId);
 }
