@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "561570645388",
+    "project_id": "my-love-biliran",
+    "storage_bucket": "my-love-biliran.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561570645388:android:34f904a2bae369797a42a9",
+        "android_client_info": {
+          "package_name": "com.example.love_biliran"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKtG8NRfjwggFRaVkDS0hVq4EIiwYSIVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

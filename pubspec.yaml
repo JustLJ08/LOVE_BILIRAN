@@ -1,6 +1,6 @@
 name: love_biliran
-description: A tourism mobile app for Biliran built with Flutter and Clean Architecture.
-publish_to: 'none' # Remove this line if you want to publish to pub.dev
+description: A tourism mobile app for Biliran built with Flutter.
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -11,19 +11,60 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # State management and utilities
+  # --- State Management & Architecture ---
+  provider: ^6.1.2
+  get_it: ^7.7.0
   equatable: ^2.0.5
   dartz: ^0.10.1
 
-  # Firebase (you'll need these later for Data Layer implementation)
-  firebase_core: ^2.15.0
-  firebase_auth: ^4.7.0
-  cloud_firestore: ^4.8.3
+  # --- Firebase Backend ---
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  # firebase_storage is REMOVED (Using Cloudinary)
+
+  # --- Image & File Handling ---
+  image_picker: ^1.1.2
+  cloudinary_public: ^0.23.1
+
+  # --- UI & Design ---
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  cupertino_icons: ^1.0.8
+
+  # --- Functionality ---
+  url_launcher: ^6.3.0
+  intl: ^0.19.0
+  flutter_bloc: ^9.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1 # Required for icon generation
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+
+# ===================================================
+# ICON GENERATION CONFIGURATION (YOU MISSED THIS PART)
+# ===================================================
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/biliran_logo.png" # Ensure your master logo is here!
+  min_sdk_android: 21 # Helps with modern adaptive icons
+  web:
+    generate: true
+    image_path: "assets/images/biliran_logo.png"
+    background_color: "#ffffff"
+    theme_color: "#009688" # Your app's primary teal color
+  windows:
+    generate: true
+    image_path: "assets/images/biliran_logo.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/images/biliran_logo.png"
